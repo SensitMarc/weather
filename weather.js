@@ -8,8 +8,8 @@ $ npm install keen-js
 
 <script type="text/javascript">
   var client = new Keen({
-    projectId: "YOUR_PROJECT_ID", // String (required always)
-    writeKey: "YOUR_WRITE_KEY",   // String (required for sending data)
+    projectId: "5731f54133e4062d0ba79561", // String (required always)
+    writeKey: "a42d5c6a8a211a01e91410619dbcfc024296781b5db2fed7b058e3425a3ded3b5affd3f0ebea7e105794dab09db56f87446096831d91f31e0d56a9cf94539d9a4351d222096b7d93aa23f4b8ad987c3595a24a2d135fa688ae0d37f10bdbfcd5",   // String (required for sending data)
     readKey: "YOUR_READ_KEY"      // String (required for querying data)
 
     // protocol: "https",         // String (optional: https | http | auto)
@@ -17,12 +17,6 @@ $ npm install keen-js
     // requestType: "jsonp"       // String (optional: jsonp, xhr, beacon)
   });
 </script>
-
-// Configure an instance for your project
-var client = new Keen({
-  projectId: "YOUR_PROJECT_ID",
-  writeKey: "YOUR_WRITE_KEY"
-});
 
 // Create a data object with the properties you want to send
 var purchaseEvent = {
